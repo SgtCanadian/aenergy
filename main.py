@@ -126,7 +126,7 @@ summary.contingency_reserve_required = summarycurrent['return']['contingency_res
 summary.dispatched_contigency_reserve_total = summarycurrent['return']['dispatched_contigency_reserve_total']
 summary.dispatched_contingency_reserve_gen = summarycurrent['return']['dispatched_contingency_reserve_gen']
 summary.dispatched_contingency_reserve_other = summarycurrent['return']['dispatched_contingency_reserve_other']
-#summary.lssi_armed_dispatch = summarycurrent['return']['lssi_armed_dispatch']
+#summary.lssi_armed_dispatch = summarycurrent['return']['lssi_armed_dispatch'] poop
 summary.lssi_offered_volume = summarycurrent['return']['lssi_offered_volume']
 
 for i in summarycurrent['return']['generation_data_list']:
