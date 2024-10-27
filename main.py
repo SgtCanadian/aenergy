@@ -69,8 +69,6 @@ class Summary(Base):
     dispatched_contigency_reserve_total: Mapped[int]
     dispatched_contingency_reserve_gen: Mapped[int]
     dispatched_contingency_reserve_other: Mapped[int]
-    #lssi_armed_dispatch: Mapped[int]
-    #lssi_offered_volume: Mapped[int]
 
 
 class Genlist(Base):
@@ -126,8 +124,6 @@ summary.contingency_reserve_required = summarycurrent['return']['contingency_res
 summary.dispatched_contigency_reserve_total = summarycurrent['return']['dispatched_contigency_reserve_total']
 summary.dispatched_contingency_reserve_gen = summarycurrent['return']['dispatched_contingency_reserve_gen']
 summary.dispatched_contingency_reserve_other = summarycurrent['return']['dispatched_contingency_reserve_other']
-#summary.lssi_armed_dispatch = summarycurrent['return']['lssi_armed_dispatch']
-#summary.lssi_offered_volume = summarycurrent['return']['lssi_offered_volume']
 
 for i in summarycurrent['return']['generation_data_list']:
     fuel = Genlist()
