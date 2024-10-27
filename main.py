@@ -70,7 +70,7 @@ class Summary(Base):
     dispatched_contingency_reserve_gen: Mapped[int]
     dispatched_contingency_reserve_other: Mapped[int]
     #lssi_armed_dispatch: Mapped[int]
-    lssi_offered_volume: Mapped[int]
+    #lssi_offered_volume: Mapped[int]
 
 
 class Genlist(Base):
